@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+}
+
+.leftcontainer {
+  width: 25%;
+  background-color: #f9f9f9;
+}
+
+.rightcontainer {
+  width: 75%;
+  background-color: rgb(230, 233, 235);
+}
+
+.userlist-container,
+.questionnaire-list {
+  margin: 20px;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+}
+
+.profile:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.profile {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: url('avatar.jpg');
+  background-size: cover;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 120px;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.262);
+}
+
+
+
+.menu-item {
+  margin: 8px;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  background-color: lightgray;
+}
+
+.menu-item:last-child {
+  margin-bottom: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+.welcome {
+  font-style: italic;
+  color: rgb(195, 15, 33);
+  margin-top: 10px;
+}
+
+.userlist {
+  font-size: 20px;
+  margin-top: 40px;
+  font-weight: bolder;
+}
+
+.userlist:hover {
+  cursor: pointer;
+  color: rgb(8, 23, 222);
+  text-decoration: underline
+}
