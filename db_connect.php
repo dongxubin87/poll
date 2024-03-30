@@ -2,7 +2,7 @@
 $host = 'localhost';
 $dbname = 'myfirstdatabase';
 $dbusername = 'root';
-$dbpassword = '';
+$dbpassword = 'root';
 // $host = $_ENV['AZURE_MYSQL_HOST'];
 // $dbname = $_ENV['AZURE_MYSQL_DBNAME'];
 // $dbusername = $_ENV['AZURE_MYSQL_USERNAME'];
